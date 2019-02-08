@@ -1,0 +1,18 @@
+@tailwind preflight;
+@tailwind utilities;
+
+body {
+  @apply flex flex-wrap justify-between p-8 bg-grey;
+}
+
+.example {
+  @apply w-1/5 p-4 text-center bg-grey-lighter text-grey-darkest;
+}
+
+.example h2 {
+  @apply text-left leading-loose text-sm mt-4;
+}
+
+.example svg {
+  @apply w-1/2;
+}
